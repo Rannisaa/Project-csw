@@ -1,0 +1,100 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("pit-in.jpg");
+	font-size: 20px;
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: center;
+	overflow-x: scroll;
+	height: 100vh;
+	color: #fff;
+}
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both
+}
+.row{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+.main-nav{
+	float: right;
+	margin-top: 60px;
+}
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+}
+.main-nav li a{
+	padding: 5px 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	font-weight: 100;
+}
+.main-nav li a:hover{
+	border-bottom: 2px solid #46AABC;
+}
+.contact-section{
+	background: rgba(0,0,0,0.2);
+	max-width: 600px;
+	margin: auto;
+	padding: 10px 40px;
+	margin-top: 2%;
+}
+.contact-section h1{
+	text-align: center;
+	color: #fff;
+}
+.border{
+	width: 100px;
+	height: 10px;
+	background: #34495e;
+	margin: 25px auto;
+}
+.contact-form{
+	max-width: 600px;
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden;
+	
+}
+.contact-form-text{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 16px 0;
+	border: 0;
+	background: #111;
+	padding: 20px 40px;
+	outline: none;
+	color: #ddd;
+	transition: 0.5s;
+}
+.contact-form-text:hover{
+	box-shadow: 0 0 10px 4px #344953;
+}
+textarea.contact-form-text{
+	resize: none;
+	height: 120px;
+}
+.contact-form-btn{
+	float: right;
+	border: 0;
+	background: #34495e;
+	color: #fff;
+	padding: 6px 50px;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.contact-form-btn:hover{
+	background: #2980b9;
+}

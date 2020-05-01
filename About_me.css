@@ -1,0 +1,73 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-size: 20px;
+	overflow: hidden;
+	color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("pit-in.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both
+}
+.row{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+.main-nav{
+	float: right;
+	margin-top: 60px;
+}
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+}
+.main-nav li a{
+	padding: 5px 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	font-weight: 100;
+}
+.main-nav li a:hover{
+	border-bottom: 2px solid #46AABC;
+}
+
+.box{
+	width: 450px;
+	background: rgba(0,0,0,0.2);
+	padding: 40px;
+	text-align: center;
+	font-size: 16px;
+	margin: auto;
+	margin-top: 9%;
+	color: #fff;
+	font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+}
+.box-img{
+	border-radius: 50%;
+	width: 140px;
+}
+.box h1{
+	font-size: 28px;
+	letter-spacing: 4px;
+	font-weight: 100;
+}
+.box p{
+	text-align: justify;
+}
